@@ -40,6 +40,7 @@
 
 从计算过程中可以看到，这个版本的 ``plus`` 函数只使用常量存储大小，且计算所需的步骤正比于参数 ``a`` ，说明这是一个线性迭代计算过程。
 
+**注**：在这一单元中（1.9），观察一个process究竟是recursive还是iterative可以直接根据if语句的<alter>项判断：recursive process的<alter>中，procedure自身是作为另一个procedure的parameter的；而iterative process的<alter>则完全由一个自身的procedure构成
 
 使用 trace 追踪调用
 -----------------------
